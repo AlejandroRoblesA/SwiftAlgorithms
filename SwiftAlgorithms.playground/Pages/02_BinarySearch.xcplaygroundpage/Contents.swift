@@ -6,4 +6,9 @@
  
 [Next](@next)
 */
-
+binarySearch(searchNumber: 1, searchIn: [1])
+binarySearch(searchNumber: 1, searchIn: [])
+binarySearch(searchNumber: 10, searchIn: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10])
+binarySearch(searchNumber: 10, searchIn: [2, 3, 4, 5, 6, 7, 8])
+binarySearch(searchNumber: 30, searchIn: [100, 200, 9, 50, 150, 30, 90, 11, 201])
+binarySearch(searchNumber: 300, searchIn: [100, 200, 9, 50, 150, 30, 90, 11, 201])
