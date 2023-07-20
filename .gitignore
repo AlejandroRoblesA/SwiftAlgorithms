@@ -2,3 +2,6 @@
 
 ## Build generated
 build/
+
+## OS X System files
+.DS_Store
