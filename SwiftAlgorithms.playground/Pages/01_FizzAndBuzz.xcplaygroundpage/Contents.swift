@@ -5,3 +5,5 @@ Write a program that prints the numbers from 1 to 100, for multiples of '3' prin
 the multiples of "5" print "Buzz". If the number is multiple of '3' and '5' print "FizzBuzz" instead of the number.
 * [Next](@next)
 */
+
+printNumbersFizzAndBuzz(numbers: oneToOnehundredNumbers())
