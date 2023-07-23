@@ -24,7 +24,7 @@ The factorial of 'n' is also equals to the product of 'n' with the next smaller 
 
  5! = 5 x (5-1) x (5-2) x (5-3) x (5-4) = 5x4x3x2x1 = 120
 
-[Next](@next)
+[-> Most Common Element In Array](@next)
 */
 
 factorial(of: 0)
