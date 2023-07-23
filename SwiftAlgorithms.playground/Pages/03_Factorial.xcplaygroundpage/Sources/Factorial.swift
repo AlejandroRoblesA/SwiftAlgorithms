@@ -8,3 +8,8 @@ public func factorial(of number: UInt) {
     }
     print("\(number)! = \(product)")
 }
+
+public func factorialRecursive(of number: UInt) -> UInt {
+    guard number != UInt.zero else { return 1 }
+    return number * factorialRecursive(of: number - 1)
+}

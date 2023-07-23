@@ -29,4 +29,14 @@ The factorial of 'n' is also equals to the product of 'n' with the next smaller 
 
 factorial(of: 0)
 factorial(of: 5)
+factorial(of: 10)
+factorial(of: 15)
 factorial(of: 20)
+print("\n⬇️⬇️⬇️Recursive⬇️⬇️⬇️\n")
+print("0! = \(factorialRecursive(of: 0))")
+print("5! = \(factorialRecursive(of: 5))")
+print("10! = \(factorialRecursive(of: 10))")
+print("15! = \(factorialRecursive(of: 15))")
+print("20! = \(factorialRecursive(of: 20))")
+
+
