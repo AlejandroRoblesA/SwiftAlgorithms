@@ -4,5 +4,6 @@
         <page name='SwiftAlgorithms'/>
         <page name='01_FizzAndBuzz'/>
         <page name='02_BinarySearch'/>
+        <page name='03_Factorial'/>
     </pages>
 </playground>
