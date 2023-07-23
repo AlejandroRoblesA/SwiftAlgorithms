@@ -27,3 +27,6 @@ The factorial of 'n' is also equals to the product of 'n' with the next smaller 
 [Next](@next)
 */
 
+factorial(of: 0)
+factorial(of: 5)
+factorial(of: 20)
