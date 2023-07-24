@@ -10,3 +10,9 @@
 print("Original sentence: \(numbers)\nReverse  sentence: \(reverseWords(in: numbers))\n")
 print("Original sentence: \(helloWord)\nReverse  sentence: \(reverseWords(in: helloWord))\n")
 print("Original sentence: \(sentence)\nReverse  sentence: \(reverseWords(in: sentence))\n")
+
+print("\n⬇️⬇️⬇️Reverse Words And Remove Vowel⬇️⬇️⬇️\n")
+
+print("Original sentence: \(numbers)\nReverse sentence without vowels: \(reverseWords(in: numbers).stringByRemovingVowel())\n")
+print("Original sentence: \(helloWord)\nReverse sentence without vowels: \(reverseWords(in: helloWord).stringByRemovingVowel())\n")
+print("Original sentence: \(sentence)\nReverse sentence without vowels: \(reverseWords(in: sentence).stringByRemovingVowel())\n")
