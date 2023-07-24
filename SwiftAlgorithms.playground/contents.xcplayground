@@ -5,5 +5,7 @@
         <page name='01_FizzAndBuzz'/>
         <page name='02_BinarySearch'/>
         <page name='03_Factorial'/>
+        <page name='04_MostCommonIElementnArray'/>
+        <page name='05_Reversed_Words'/>
     </pages>
 </playground>
