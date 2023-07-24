@@ -4,7 +4,7 @@
 ## Instructions:
  Write a function that receive an array of strings and return the value that is repeated more times.
 
-[-> Reversed Words](@next)
+[-> Reverse Words](@next)
 */
 
 print("The most common element in: \(countries) is: \(mostCommonElement(in: countries))")
