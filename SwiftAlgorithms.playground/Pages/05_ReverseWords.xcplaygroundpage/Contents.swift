@@ -1,10 +1,11 @@
 /*:
 [<- Most Common Element In Array](@previous)
 # 05 - Reverse Words
-## Instrctions:
+## Instrcutions:
 1. Write a function that recieve a sentence and invert every single word
 2. Write a faction that delete the vowels of every single word of the sentence
-[Next](@next)
+ 
+[-> Fibonacci Sequence](@next)
 */
 
 print("Original sentence: \(numbers)\nReverse  sentence: \(reverseWords(in: numbers))\n")

@@ -6,6 +6,7 @@
         <page name='02_BinarySearch'/>
         <page name='03_Factorial'/>
         <page name='04_MostCommonIElementnArray'/>
-        <page name='05_Reverse_Words'/>
+        <page name='05_ReverseWords'/>
+        <page name='06_FibonacciSequence'/>
     </pages>
 </playground>
