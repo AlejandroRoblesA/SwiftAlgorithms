@@ -7,7 +7,7 @@ Your task is to write a function that takes a string and return a new string wit
 Example:
 The string "This website is for losers LOL!" would become "Ths wbst s fr lsrs LL!"
  
-[Next](@next)
+[-> Duplicate Encoder](@next)
 */
 
 print("⬇️⬇️⬇️ Remove Vowles String Extension ⬇️⬇️⬇️")
