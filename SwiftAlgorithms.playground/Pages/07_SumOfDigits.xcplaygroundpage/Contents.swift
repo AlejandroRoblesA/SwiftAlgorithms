@@ -18,3 +18,9 @@ Example:
  
 [Next](@next)
 */
+
+print("La suma de los digitos: '5' es: \(digitalRoot(of: 5))")
+print("La suma de los digitos: '16' es: \(digitalRoot(of: 16))")
+print("La suma de los digitos: '942' es: \(digitalRoot(of: 942))")
+print("La suma de los digitos: '132189' es: \(digitalRoot(of: 132189))")
+print("La suma de los digitos: '493193' es: \(digitalRoot(of: 493193))")
