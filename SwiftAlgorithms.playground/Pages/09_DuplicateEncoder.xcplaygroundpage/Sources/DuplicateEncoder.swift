@@ -29,3 +29,13 @@ public func duplicateEncodeUsingMap(word: String) {
     word = word.map { dictionary[$0]! > 1 ? ")" : "(" }.joined()
     print("Word: \(word)\nEncode Word: \(word)\n")
 }
+
+public func duplicateEncodeFilter(word: String) {
+    let word = word.lowercased()
+    var newWord = ""
+    for char in word {
+        let count = word.filter { $0 == char }.count
+        newWord += count > 1 ? ")" : "("
+    }
+    print("Word: \(word)\nEncode Word: \(newWord)\n")
+}
