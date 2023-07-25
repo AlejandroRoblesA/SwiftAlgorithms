@@ -17,6 +17,6 @@ public func disemVowelsReplacingOccurrences(sentence: String) {
 
 public func disemVowelsFilter(sentence: String) {
     let vowels: [Character] = ["a", "e", "i", "o", "u", "A", "E", "I", "O", "U"]
-    let sentenceWithoutVowels = String(sentence.filter { !vowels.contains($0) })
+    let sentenceWithoutVowels = sentence.filter { !vowels.contains($0) }
     print("The original: \(sentence)\nSentence without vowels: \(sentenceWithoutVowels)\n")
 }
