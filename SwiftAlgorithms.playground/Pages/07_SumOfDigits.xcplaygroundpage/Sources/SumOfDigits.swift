@@ -10,3 +10,7 @@ public func digitalRoot(of number: Int) -> Int {
     }
     return stringNumber.count > 1 ? digitalRoot(of: sum) : Int(stringNumber) ?? 0
 }
+
+public func digitalMathRoot(of number: Int) -> Int {
+    return (number-1) % 9 + 1
+}
