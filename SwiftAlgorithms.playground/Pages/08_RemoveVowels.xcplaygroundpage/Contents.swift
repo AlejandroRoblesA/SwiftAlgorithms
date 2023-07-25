@@ -10,13 +10,16 @@ The string "This website is for losers LOL!" would become "Ths wbst s fr lsrs LL
 [Next](@next)
 */
 
-let sentence = "This website is for losers LOL!"
-let information = "My name is Alejandro, I'm an iOS developer since 2018"
-let hobbies = "Something that I really like is to play soccer and play chess"
-
+print("⬇️⬇️⬇️ Remove Vowles String Extension ⬇️⬇️⬇️")
 removeVowels(from: sentence)
 removeVowels(from: information)
 removeVowels(from: hobbies)
+print("⬇️⬇️⬇️ Remove Vowles ReplaceOcurrences ⬇️⬇️⬇️")
 disemVowelsReplacingOccurrences(sentence: sentence)
 disemVowelsReplacingOccurrences(sentence: information)
 disemVowelsReplacingOccurrences(sentence: hobbies)
+
+print("⬇️⬇️⬇️ Remove Vowles Filter ⬇️⬇️⬇️")
+disemVowelsFilter(sentence: sentence)
+disemVowelsFilter(sentence: information)
+disemVowelsFilter(sentence: hobbies)
