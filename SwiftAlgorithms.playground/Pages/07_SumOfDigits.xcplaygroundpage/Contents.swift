@@ -16,7 +16,7 @@ Example:
 
 493193  -->  4 + 9 + 3 + 1 + 9 + 3 = 29  -->  2 + 9 = 11  -->  1 + 1 = 2
  
-[Next](@next)
+[Remove Vowels](@next)
 */
 
 print("La suma de los digitos: '5' es: \(digitalRoot(of: 5))")

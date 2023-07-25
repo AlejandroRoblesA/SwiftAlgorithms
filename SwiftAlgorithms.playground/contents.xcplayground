@@ -9,5 +9,6 @@
         <page name='05_ReverseWords'/>
         <page name='06_FibonacciSequence'/>
         <page name='07_SumOfDigits'/>
+        <page name='08_RemoveVowels'/>
     </pages>
 </playground>
