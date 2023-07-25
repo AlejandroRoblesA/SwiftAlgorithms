@@ -19,3 +19,13 @@ public func duplicateEncoder(word: String) {
     }
     print("Word: \(word)\nEncode Word: \(encodeWord)\n")
 }
+
+public func duplicateEncodeUsingMap(word: String) {
+    var dictionary = [Character: Int]()
+    var word = word.lowercased()
+    for letter in word {
+        dictionary[letter, default: 0] += 1
+    }
+    word = word.map { dictionary[$0]! > 1 ? ")" : "(" }.joined()
+    print("Word: \(word)\nEncode Word: \(word)\n")
+}

@@ -16,9 +16,17 @@ Example:
 
 [Next](@next)
 */
-
+print("⬇️⬇️⬇️ Encode Using Dictionary ⬇️⬇️⬇️")
 duplicateEncoder(word: "din")
 duplicateEncoder(word: "recede")
 duplicateEncoder(word: "Success")
 duplicateEncoder(word: "(( @")
 duplicateEncoder(word: " @gmail.com ")
+
+print("⬇️⬇️⬇️ Encode Using Map ⬇️⬇️⬇️")
+duplicateEncodeUsingMap(word: "din")
+duplicateEncodeUsingMap(word: "recede")
+duplicateEncodeUsingMap(word: "Success")
+duplicateEncodeUsingMap(word: "(( @")
+duplicateEncodeUsingMap(word: " @gmail.com ")
+
