@@ -16,3 +16,9 @@ Example:
 
 [Next](@next)
 */
+
+duplicateEncoder(word: "din")
+duplicateEncoder(word: "recede")
+duplicateEncoder(word: "Success")
+duplicateEncoder(word: "(( @")
+duplicateEncoder(word: " @gmail.com ")
