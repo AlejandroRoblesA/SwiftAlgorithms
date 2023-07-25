@@ -17,3 +17,6 @@ let hobbies = "Something that I really like is to play soccer and play chess"
 removeVowels(from: sentence)
 removeVowels(from: information)
 removeVowels(from: hobbies)
+disemVowelsReplacingOccurrences(sentence: sentence)
+disemVowelsReplacingOccurrences(sentence: information)
+disemVowelsReplacingOccurrences(sentence: hobbies)
