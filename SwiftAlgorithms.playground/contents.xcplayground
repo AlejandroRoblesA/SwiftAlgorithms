@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<playground version='6.0' target-platform='ios' display-mode='raw' buildActiveScheme='true' importAppTypes='true'>
+<playground version='6.0' target-platform='ios' display-mode='rendered' buildActiveScheme='true' importAppTypes='true'>
     <pages>
         <page name='SwiftAlgorithms'/>
         <page name='01_FizzAndBuzz'/>
@@ -8,5 +8,6 @@
         <page name='04_MostCommonIElementnArray'/>
         <page name='05_ReverseWords'/>
         <page name='06_FibonacciSequence'/>
+        <page name='07_SumOfDigits'/>
     </pages>
 </playground>
