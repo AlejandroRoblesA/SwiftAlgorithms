@@ -6,7 +6,7 @@ Write a function that recieve a number and return an array with the size of the 
 
 ![Fibonacci](Fibonacci.png)
 
- [Next](@next)
+[-> Sum Of Digits](@next)
 */
 
 print("Number of size: '0', Fibonacci Sequence: \(fibonacciSequenceFor(numberSteps: 0))")

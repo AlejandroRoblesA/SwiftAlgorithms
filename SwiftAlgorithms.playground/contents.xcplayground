@@ -8,5 +8,6 @@
         <page name='04_MostCommonIElementnArray'/>
         <page name='05_ReverseWords'/>
         <page name='06_FibonacciSequence'/>
+        <page name='07_SumOfDigits'/>
     </pages>
 </playground>
