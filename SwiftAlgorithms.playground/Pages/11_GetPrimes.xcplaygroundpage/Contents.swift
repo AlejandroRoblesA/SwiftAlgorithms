@@ -45,3 +45,10 @@
  
 [Next](@next)
 */
+
+print("⬇️⬇️⬇️ Get Primes ⬇️⬇️⬇️")
+print("The primes numbers from '0' to '0' are: \(getPrimes(from: 0, to: 0))")
+print("The primes numbers from '1' to '0' are: \(getPrimes(from: 1, to: 0))")
+print("The primes numbers from '1' to '1' are:  \(getPrimes(from: 1, to: 1))")
+print("The primes numbers from '0' to '30' are: \(getPrimes(from: 0, to: 30))")
+print("The primes numbers from '30' to '0' are: \(getPrimes(from: 30, to: 0))")
