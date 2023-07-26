@@ -12,5 +12,6 @@
         <page name='08_RemoveVowels'/>
         <page name='09_DuplicateEncoder'/>
         <page name='10_ReduceDirections'/>
+        <page name='11_GetPrimes'/>
     </pages>
 </playground>
