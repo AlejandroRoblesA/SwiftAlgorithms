@@ -83,12 +83,29 @@ func factorial(of number: Int) -> Int {
     return factorial
 }
 
-factorial(of: 1)
-factorial(of: 0)
-factorial(of: 4)
-factorial(of: 5)
-factorial(of: 10)
-factorial(of: 15)
+func sumDigits(number: [Int]) -> Int {
+    var sum = 0
+    for digit in number {
+        sum = sum + factorial(of: digit)
+    }
+    return sum
+}
+
+
+//5, 120, 4, 24, 26, 722
+sumDigits(number: [5])
+sumDigits(number: [1,2,0])
+sumDigits(number: [4])
+sumDigits(number: [2,4])
+sumDigits(number: [2,6])
+sumDigits(number: [7,2,2])
+
+//factorial(of: 1)
+//factorial(of: 0)
+//factorial(of: 4)
+//factorial(of: 5)
+//factorial(of: 10)
+//factorial(of: 15)
 
 //getDigit(number: 1)
 //getDigit(number: 9)
