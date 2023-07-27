@@ -58,11 +58,36 @@
 /// sum the digits
 /// Add the new number if it is not in the array, if it is in the array stop to adding numbers -> It could be a set insted of array ...
 /// search for the max number "functionApple ma([])"
-/// multiply the max number for the nubers of elements in the arrat/set
+/// multiply the max number for the numbers of elements in the arrat/set
 /// return the multiplication
 
 func maxStrengthGroup(id player: Int) -> Int {
-    return 0
+    var groupPlayers: Set<Int> = [player]
+    groupPlayers = addNewPlayerToGroup(id: player, group: groupPlayers)
+    guard let leaderPlayer = groupPlayers.max() else { return 0 }
+    print("leaderPlayer:\(leaderPlayer)", "\n\n\n")
+    return leaderPlayer * groupPlayers.count
+}
+
+func newPlayerId(lastPlayerId: Int) -> Int {
+    /// Starting Get the new play ID
+    let idPlayerInDigits: [Int] = getDigit(number: lastPlayerId)
+//    print("idPlayerInDigits: \(idPlayerInDigits)")
+//    print("newPlayerId:\(newPlayerId)")
+    return sumDigits(number: idPlayerInDigits)
+    /// Ending Get the new player ID
+}
+
+func addNewPlayerToGroup(id player: Int, group: Set<Int>) -> Set<Int> {
+    var groupPlayers = group
+    let newPlayerId: Int = newPlayerId(lastPlayerId: player)
+    print("groupPlayers:\(groupPlayers)")
+    if isNewPlayer(in: groupPlayers, playerId: newPlayerId) {
+        groupPlayers.insert(newPlayerId)
+        print("groupPlayers:\(groupPlayers)")
+        return addNewPlayerToGroup(id: newPlayerId, group: groupPlayers)
+    }
+    return groupPlayers
 }
 
 func getDigit(number: Int) -> [Int] {
@@ -96,10 +121,17 @@ func isNewPlayer(in group: Set<Int>, playerId: Int) -> Bool {
     return !group.contains(playerId)
 }
 
-isNewPlayer(in: [1,2,3,4], playerId: 1)
-isNewPlayer(in: [], playerId: 5)
-isNewPlayer(in: [99], playerId: 100)
-isNewPlayer(in: [4,5,6,7,8], playerId: 6)
+//isNewPlayer(in: [1,2,3,4], playerId: 1)
+//isNewPlayer(in: [], playerId: 5)
+//isNewPlayer(in: [99], playerId: 100)
+//isNewPlayer(in: [4,5,6,7,8], playerId: 6)
+
+//print(maxStrengthGroup(id: 3))
+print("maxStrenght: \(maxStrengthGroup(id: 4))")
+print("maxStrenght: \(maxStrengthGroup(id: 5)))")
+print("maxStrenght: \(maxStrengthGroup(id: 540))")
+
+
 
 //5, 120, 4, 24, 26, 722
 //sumDigits(number: [5])
