@@ -74,9 +74,25 @@ func getDigit(number: Int) -> [Int] {
     return numberInDigits
 }
 
-getDigit(number: 1)
-getDigit(number: 9)
-getDigit(number: 99)
-getDigit(number: 0)
-getDigit(number: 100)
-getDigit(number: 2)
+func factorial(of number: Int) -> Int {
+    guard number >= 1 else { return 1 }
+    var factorial = 1
+    for i in 1...number {
+        factorial = factorial * i
+    }
+    return factorial
+}
+
+factorial(of: 1)
+factorial(of: 0)
+factorial(of: 4)
+factorial(of: 5)
+factorial(of: 10)
+factorial(of: 15)
+
+//getDigit(number: 1)
+//getDigit(number: 9)
+//getDigit(number: 99)
+//getDigit(number: 0)
+//getDigit(number: 100)
+//getDigit(number: 2)
