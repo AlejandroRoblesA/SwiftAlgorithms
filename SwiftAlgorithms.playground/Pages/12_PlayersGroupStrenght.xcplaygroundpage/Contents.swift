@@ -92,13 +92,22 @@ func sumDigits(number: [Int]) -> Int {
 }
 
 
+func isNewPlayer(in group: Set<Int>, playerId: Int) -> Bool {
+    return !group.contains(playerId)
+}
+
+isNewPlayer(in: [1,2,3,4], playerId: 1)
+isNewPlayer(in: [], playerId: 5)
+isNewPlayer(in: [99], playerId: 100)
+isNewPlayer(in: [4,5,6,7,8], playerId: 6)
+
 //5, 120, 4, 24, 26, 722
-sumDigits(number: [5])
-sumDigits(number: [1,2,0])
-sumDigits(number: [4])
-sumDigits(number: [2,4])
-sumDigits(number: [2,6])
-sumDigits(number: [7,2,2])
+//sumDigits(number: [5])
+//sumDigits(number: [1,2,0])
+//sumDigits(number: [4])
+//sumDigits(number: [2,4])
+//sumDigits(number: [2,6])
+//sumDigits(number: [7,2,2])
 
 //factorial(of: 1)
 //factorial(of: 0)
