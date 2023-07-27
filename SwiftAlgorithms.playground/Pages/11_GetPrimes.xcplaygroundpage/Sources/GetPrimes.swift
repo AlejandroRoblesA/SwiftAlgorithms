@@ -14,8 +14,11 @@ public func getPrimes(from start: Int, to end: Int) -> [Int] {
 private func getInitalValues(startR: Int, endR: Int) -> (start: Int, end: Int) {
     var start = startR < endR ? startR : endR
     var end = startR > endR ? startR : endR
-    print("star: \(start), end: \(end)")
     start = start == 0 ? 1 : start
     end = end == 0 ? 1 : end
     return (start, end)
+}
+
+public func getPrimesUsingRecursion(from start: Int, to end: Int) -> [Int] {
+    return end < start ? getPrimes(from:end, to:start) : (start...end).filter({$0.isPrimeContains()})
 }
