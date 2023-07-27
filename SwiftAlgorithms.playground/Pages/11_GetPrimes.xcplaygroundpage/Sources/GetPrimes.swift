@@ -22,3 +22,7 @@ private func getInitalValues(startR: Int, endR: Int) -> (start: Int, end: Int) {
 public func getPrimesUsingRecursion(from start: Int, to end: Int) -> [Int] {
     return end < start ? getPrimes(from:end, to:start) : (start...end).filter({$0.isPrimeContains()})
 }
+
+public func getPrimesUsingFilter(from start: Int, to end: Int) -> [Int] {
+    return (min(start, end)...max(start, end)).filter { $0.isPrime() }
+}

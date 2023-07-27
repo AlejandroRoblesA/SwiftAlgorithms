@@ -59,3 +59,10 @@ print("The primes numbers from '1' to '0' are: \(getPrimesUsingRecursion(from: 1
 print("The primes numbers from '1' to '1' are:  \(getPrimesUsingRecursion(from: 1, to: 1))")
 print("The primes numbers from '0' to '30' are: \(getPrimesUsingRecursion(from: 0, to: 30))")
 print("The primes numbers from '30' to '0' are: \(getPrimesUsingRecursion(from: 30, to: 0))")
+
+print("\n⬇️⬇️⬇️ Get Primes Using Filter ⬇️⬇️⬇️")
+print("The primes numbers from '0' to '0' are: \(getPrimesUsingFilter(from: 0, to: 0))")
+print("The primes numbers from '1' to '0' are: \(getPrimesUsingFilter(from: 1, to: 0))")
+print("The primes numbers from '1' to '1' are:  \(getPrimesUsingFilter(from: 1, to: 1))")
+print("The primes numbers from '0' to '30' are: \(getPrimesUsingFilter(from: 0, to: 30))")
+print("The primes numbers from '30' to '0' are: \(getPrimesUsingFilter(from: 30, to: 0))")
