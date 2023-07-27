@@ -50,3 +50,33 @@
  
 [Next](@next)
 */
+
+
+/// Taks:
+/// Divide de number in digits
+/// get the factorial of each digit
+/// sum the digits
+/// Add the new number if it is not in the array, if it is in the array stop to adding numbers -> It could be a set insted of array ...
+/// search for the max number "functionApple ma([])"
+/// multiply the max number for the nubers of elements in the arrat/set
+/// return the multiplication
+
+func maxStrengthGroup(id player: Int) -> Int {
+    return 0
+}
+
+func getDigit(number: Int) -> [Int] {
+    guard number.description.count >= 2 else { return [number] }
+    var numberInDigits = [Int]()
+    for digit in number.description {
+        numberInDigits.append(Int(String(digit)) ?? 0)
+    }
+    return numberInDigits
+}
+
+getDigit(number: 1)
+getDigit(number: 9)
+getDigit(number: 99)
+getDigit(number: 0)
+getDigit(number: 100)
+getDigit(number: 2)
