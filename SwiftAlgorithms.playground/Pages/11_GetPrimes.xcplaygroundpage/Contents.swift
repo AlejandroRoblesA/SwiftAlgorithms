@@ -43,7 +43,7 @@
  
  getPrimes(30, 0); // === [2, 3, 5, 7, 11, 13, 17, 19, 23, 29]
  
-[Next](@next)
+[Players Group Strenght](@next)
 */
 
 print("⬇️⬇️⬇️ Get Primes ⬇️⬇️⬇️")
