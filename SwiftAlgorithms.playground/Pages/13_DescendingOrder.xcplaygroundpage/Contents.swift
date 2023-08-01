@@ -13,7 +13,7 @@
 
  Input: 123456789 Output: 987654321
  
-[Next](@next)
+[-> Find Number By Sum](@next)
 */
 
 print("Initial value: '42145', digits ordered: \(descendingOrder(of: 42145))")
