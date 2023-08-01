@@ -19,3 +19,9 @@
  
 [Next](@next)
 */
+
+print(twosum(numbers: [1,2,3], target: 4))
+print(twosum(numbers: [1234, 5678, 9012], target: 14690))
+print(twosum(numbers: [2,2,3], target: 4))
+print(twosum(numbers: [1,54,24,35], target: 59))
+
