@@ -48,7 +48,7 @@
  The group will contain the players with ids {540, 145}. Hence the strength will be 540
  *2= 1080.
  
-[Next](@next)
+[-> Descending Order](@next)
 */
 
 print("Initial Player id: '1', Max Group Strenght: \(maxStrengthGroup(id: 1))")
