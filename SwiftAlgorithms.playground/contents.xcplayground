@@ -14,5 +14,6 @@
         <page name='10_ReduceDirections'/>
         <page name='11_GetPrimes'/>
         <page name='12_PlayersGroupStrenght'/>
+        <page name='13_DescendingOrder'/>
     </pages>
 </playground>
