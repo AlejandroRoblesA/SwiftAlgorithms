@@ -15,3 +15,9 @@
  
 [Next](@next)
 */
+
+print("Initial value: '42145', digits ordered: \(descendingOrder(of: 42145))")
+print("Initial value: '145263', digits ordered: \(descendingOrder(of: 145263))")
+print("Initial value: '9876543', digits ordered: \(descendingOrder(of: 90876543))")
+print("Initial value: '123456789', digits ordered: \(descendingOrder(of: 123456789))")
+print("Initial value: '0', digits ordered: \(descendingOrder(of: 0))")
