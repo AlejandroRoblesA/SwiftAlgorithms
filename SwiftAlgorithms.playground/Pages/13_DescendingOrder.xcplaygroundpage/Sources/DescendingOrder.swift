@@ -13,3 +13,7 @@ public func descendingOrder(of number: Int) -> Int {
     }
     return Int(numberString) ?? 0
 }
+
+public func descendingOrderSort(of number: Int) -> Int {
+    return Int(String(number.description.sorted { $0 > $1 })) ?? 0
+}
