@@ -10,3 +10,15 @@ public func twosum(numbers: [Double], target: Double) -> [Int] {
     }
     return []
 }
+
+public func findNumberBySum(numbers: [Double], target: Double) -> [Int] {
+    var numberPairs = [Double: Double]()
+    for (index,number) in numbers.enumerated() {
+        if let pairIndex = numberPairs[target - number] {
+            return[Int(pairIndex),index]
+        } else {
+            numberPairs[Double(number)] = Double(index)
+        }
+    }
+    return []
+}
