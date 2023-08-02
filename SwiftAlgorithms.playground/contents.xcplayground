@@ -15,5 +15,6 @@
         <page name='11_GetPrimes'/>
         <page name='12_PlayersGroupStrenght'/>
         <page name='13_DescendingOrder'/>
+        <page name='14_FindNumberBySum'/>
     </pages>
 </playground>
