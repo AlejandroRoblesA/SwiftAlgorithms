@@ -17,7 +17,7 @@
  [1,54,24,35], 59 -> [2,3]
  
  
-[Next](@next)
+[-> Persistent Bugger](@next)
 */
 
 print(twosum(numbers: [1,2,3], target: 4))
