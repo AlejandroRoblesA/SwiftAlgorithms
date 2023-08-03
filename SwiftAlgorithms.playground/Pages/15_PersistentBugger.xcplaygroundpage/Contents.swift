@@ -13,7 +13,7 @@
  
  4 --> 0 (because 4 is already a one-digit number)
  
-[Next](@next)
+[-> Filter, Map, Reduce Functions](@next)
 */
 
 print("The number '4' you can multiply it's result until arrive to just one digit \(persistence(for: 4)) times")

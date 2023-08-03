@@ -17,5 +17,6 @@
         <page name='13_DescendingOrder'/>
         <page name='14_FindNumberBySum'/>
         <page name='15_PersistentBugger'/>
+        <page name='16_Filter'/>
     </pages>
 </playground>
