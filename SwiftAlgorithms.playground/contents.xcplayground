@@ -16,5 +16,6 @@
         <page name='12_PlayersGroupStrenght'/>
         <page name='13_DescendingOrder'/>
         <page name='14_FindNumberBySum'/>
+        <page name='15_PersistentBugger'/>
     </pages>
 </playground>
