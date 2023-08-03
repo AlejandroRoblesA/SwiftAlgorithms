@@ -15,3 +15,9 @@
  
 [Next](@next)
 */
+
+print("The number '4' you can multiply it's result until arrive to just one digit \(persistence(for: 4)) times")
+print("The number '10' you can multiply it's result until arrive to just one digit \(persistence(for: 10)) times")
+print("The number '25' you can multiply it's result until arrive to just one digit \(persistence(for: 25)) times")
+print("The number '39' you can multiply it's result until arrive to just one digit \(persistence(for: 39)) times")
+print("The number '999' you can multiply it's result until arrive to just one digit \(persistence(for: 999)) times")
