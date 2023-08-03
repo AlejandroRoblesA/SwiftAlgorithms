@@ -18,5 +18,6 @@
         <page name='14_FindNumberBySum'/>
         <page name='15_PersistentBugger'/>
         <page name='16_Filter'/>
+        <page name='16_Map'/>
     </pages>
 </playground>
