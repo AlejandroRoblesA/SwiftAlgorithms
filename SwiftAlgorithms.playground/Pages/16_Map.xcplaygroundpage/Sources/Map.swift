@@ -11,3 +11,7 @@ public func multiply(array: [Int], withNumber: Int) -> [Int] {
     }
     return transformArray
 }
+
+public func multiplyUsingMap(array: [Int], withNumber: Int) -> [Int] {
+    return array.map { $0 * withNumber }
+}
