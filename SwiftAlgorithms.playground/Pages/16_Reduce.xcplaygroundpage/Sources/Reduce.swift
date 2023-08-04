@@ -12,3 +12,7 @@ public func sumElements(in array: [Int]) -> Int {
     }
     return sumElements
 }
+
+public func sumElementsUsingReduce(in array: [Int]) -> Int {
+    return array.reduce(0) { result, element in result + element }
+}
