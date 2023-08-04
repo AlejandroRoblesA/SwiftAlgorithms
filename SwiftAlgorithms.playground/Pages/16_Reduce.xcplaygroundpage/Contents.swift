@@ -6,3 +6,9 @@
  
 [-> Next](@next)
 */
+
+print("Reduce Algorithm Using ForIn")
+print("The result of sum the numbers: \(numbers) is: \(sumElements(in: numbers))")
+print("The result of sum the numbers: \(pairs) is: \(sumElements(in: pairs))")
+print("The result of sum the numbers: \(primes) is: \(sumElements(in: primes))")
+print("The result of sum the numbers: \(emptyArray) is: \(sumElements(in: emptyArray))")
