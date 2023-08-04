@@ -15,4 +15,7 @@ public func searchThe(element: Int, in array:[Int]) -> [Int] {
     }
     return filteredArray
 }
-
+ 
+public func searchUsingFilterThe(element: Int, in array: [Int]) -> [Int] {
+    return array.filter({ return $0 == element })
+}
