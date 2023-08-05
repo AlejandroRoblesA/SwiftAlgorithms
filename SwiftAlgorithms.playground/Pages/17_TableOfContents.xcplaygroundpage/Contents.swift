@@ -118,3 +118,41 @@ The table of contents should be displayed in the following format:
  
  [-> Next](@next)
 */
+
+let autos = [
+"# Cars",
+"## Sedan",
+"## Coupe",
+"## SUV"
+]
+
+let games = [
+    "# Games",
+    "## Board",
+    "## Computer",
+    "## Zero sum",
+    "## Multiplayer",
+    "# Strategies",
+    "## Greedy",
+    "## Tree pruning",
+    "## Others",
+    "# Summary"
+]
+
+let development = [
+    "# Algorithms",
+    "This chapter covers the most basic algorithms.",
+    "## Sorting",
+    "Quicksort is fast and widely used in practice",
+    "Merge sort is a deterministic algorithm",
+    "## Searching",
+    "DFS and BFS are widely used graph searching algorithms",
+    "Some variants of DFS are also used in game theory applications",
+    "# Data Structures",
+    "This chapter is all about data structures",
+    "It's a draft for now and will contain more sections in the future",
+    "# Binary Search Trees"
+]
+print(table0fContents(text: autos))
+print(table0fContents(text: games))
+print(table0fContents(text: development))
