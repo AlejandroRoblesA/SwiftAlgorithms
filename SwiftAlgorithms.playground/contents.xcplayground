@@ -20,5 +20,6 @@
         <page name='16_Filter'/>
         <page name='16_Map'/>
         <page name='16_Reduce'/>
+        <page name='17_TableOfContents'/>
     </pages>
 </playground>
