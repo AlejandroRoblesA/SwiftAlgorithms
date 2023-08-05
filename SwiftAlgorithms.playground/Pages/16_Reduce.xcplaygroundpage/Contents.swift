@@ -4,7 +4,7 @@
 ## Instrcutions:
  Write a function that receive an array of Integers and return a Integer with the values of the array received additioned.
  
-[-> Next](@next)
+[-> Table Of Contents](@next)
 */
 
 print("Reduce Algorithm Using ForIn")
