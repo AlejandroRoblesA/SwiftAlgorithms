@@ -153,6 +153,7 @@ let development = [
     "It's a draft for now and will contain more sections in the future",
     "# Binary Search Trees"
 ]
+
 print(table0fContents(text: autos))
 print(table0fContents(text: games))
 print(table0fContents(text: development))
