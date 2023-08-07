@@ -21,5 +21,6 @@
         <page name='16_Map'/>
         <page name='16_Reduce'/>
         <page name='17_TableOfContents'/>
+        <page name='18_MatrixMultiplication'/>
     </pages>
 </playground>
