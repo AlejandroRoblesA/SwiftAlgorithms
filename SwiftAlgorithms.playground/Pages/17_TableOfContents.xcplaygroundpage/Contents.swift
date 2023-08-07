@@ -116,7 +116,7 @@ The table of contents should be displayed in the following format:
  looks like an outline because it contains only chapters and sections. Chapter 1 has 4 sections in it, Chapter 2 has 3 sections, and Chapter 3 has no sections.
  
  
- [-> Next](@next)
+ [-> Matrix Multiplication](@next)
 */
 
 let autos = [
