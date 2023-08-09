@@ -34,7 +34,7 @@
  
  0 <= a[i] <= 100, where 0 <= i < n.
  
- [-> Next](@next)
+ [-> Absolut Difference Diagonal Matrix](@next)
 */
 
 print("\(lonelyInteger(array: [1,2,3,4,3,2,1]))")

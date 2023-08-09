@@ -23,5 +23,6 @@
         <page name='17_TableOfContents'/>
         <page name='18_MatrixMultiplication'/>
         <page name='19_LonelyInteger'/>
+        <page name='20_AbsoluteDifference'/>
     </pages>
 </playground>
