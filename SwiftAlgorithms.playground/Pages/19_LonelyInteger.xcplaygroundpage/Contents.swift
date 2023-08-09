@@ -38,3 +38,4 @@
 */
 
 print("\(lonelyInteger(array: [1,2,3,4,3,2,1]))")
+print("\(lonelyInteger(array: [11,12,13,14,14,13,12,1]))")
