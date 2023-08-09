@@ -10,7 +10,7 @@
  ![Matrix 3x3](3x3-2.png)
  ![MAtrix 4x4](4x4.png)
  
- [-> Next](@next)
+ [-> Lonely Integer](@next)
 */
 var matrixA = [[-2,1],[0,4]]
 var matrixB = [[6,5],[-7,1]]
