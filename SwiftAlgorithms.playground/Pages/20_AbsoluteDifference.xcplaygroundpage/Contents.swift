@@ -70,7 +70,7 @@
  
  Difference: |4 - 19| = 15
  
- [-> Next](@next)
+ [-> Counting Sort](@next)
 */
 let array1 = [
 [1, 2, 3],
