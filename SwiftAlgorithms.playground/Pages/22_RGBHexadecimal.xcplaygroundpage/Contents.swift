@@ -16,3 +16,8 @@
  
  [-> Next](@next)
 */
+
+print("RGB: 255, 255, 255\nHexadeximal: \(rgb(r: 255, g: 255, b: 255))\n")
+print("RGB: 255, 255, 300\nHexadeximal: \(rgb(r: 255, g: 255, b: 300))\n")
+print("RGB: 0, 0, 0\nHexadeximal: \(rgb(r: 0, g: 0, b: 0))\n")
+print("RGB: 148, 0, 211\nHexadeximal: \(rgb(r: 148, g: 0, b: 211))\n")
