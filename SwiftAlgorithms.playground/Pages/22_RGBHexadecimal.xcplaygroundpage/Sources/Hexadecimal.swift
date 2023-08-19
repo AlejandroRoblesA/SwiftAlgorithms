@@ -58,3 +58,7 @@ private func getHexadecimailValue(number: Int) -> String {
         return ""
     }
 }
+
+public func rgbStringFormat(red: Int, green: Int, blue: Int) -> String {
+  return String(format: "%02X%02X%02X", UInt8(clamping: red), UInt8(clamping: green), UInt8(clamping: blue))
+}
